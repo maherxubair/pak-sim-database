@@ -28,9 +28,12 @@
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
-    <script src="/assets/tailwind.config.js"></script>
+    <script src="/tailwind.config.js"></script>
 
-    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
 
   <body class="bg-dark-900 text-gray-200 min-h-screen">
@@ -59,8 +62,9 @@
         </div>
         <div class="hidden md:flex space-x-8">
           <a href="https://nexoracle.com" target="_blank" class="nav-link font-medium hover:text-blue-400 transition">Home</a>
-          <a href="https://api.nexoracle.com" target="_blank" class="nav-link font-medium hover:text-blue-400 transition">Services</a>
           <a href="#about" class="nav-link font-medium hover:text-blue-400 transition">About</a>
+          <a href="https://api.nexoracle.com" target="_blank" class="nav-link font-medium hover:text-blue-400 transition">Services</a>
+          <a href="https://github.com/maherxubair/pak-sim-database" target="_blank" class="nav-link font-medium hover:text-blue-400 transition">Source</a>
           <a href="#faq" class="nav-link font-medium hover:text-blue-400 transition">FAQs</a>
         </div>
         <button class="md:hidden text-xl focus:outline-none" id="mobile-menu-button">
@@ -71,8 +75,9 @@
       <!-- Mobile Menu -->
       <div class="md:hidden hidden mt-4 bg-dark-700 rounded-lg p-4" id="mobile-menu">
         <a href="https://nexoracle.com" target="_blank" class="block py-3 px-4 rounded-lg hover:bg-dark-600 transition flex items-center"> <i class="fas fa-home mr-3 text-blue-400"></i> Home </a>
-        <a href="https://api.nexoracle.com" target="_blank" class="block py-3 px-4 rounded-lg hover:bg-dark-600 transition flex items-center"> <i class="fas fa-globe mr-3 text-blue-400"></i> Services </a>
         <a href="#about" class="block py-3 px-4 rounded-lg hover:bg-dark-600 transition flex items-center mt-2"> <i class="fas fa-info-circle mr-3 text-blue-400"></i> About </a>
+        <a href="https://api.nexoracle.com" target="_blank" class="block py-3 px-4 rounded-lg hover:bg-dark-600 transition flex items-center"> <i class="fas fa-globe mr-3 text-blue-400"></i> Services </a>
+        <a href="https://github.com/maherxubair/pak-sim-database" class="block py-3 px-4 rounded-lg hover:bg-dark-600 transition flex items-center mt-2"> <i class="fas fa-code mr-3 text-blue-400"></i> Source </a>
         <a href="#faq" class="block py-3 px-4 rounded-lg hover:bg-dark-600 transition flex items-center mt-2"> <i class="fas fa-question-circle mr-3 text-blue-400"></i> FAQs </a>
       </div>
     </nav>
@@ -305,7 +310,7 @@
             <a href="https://instagram.com/nexoracle" class="text-gray-400 hover:text-blue-400 transition text-xl">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://github.com/maher-xubair/pak-sim-database" class="text-gray-400 hover:text-blue-400 transition text-xl">
+            <a href="https://github.com/maherxubair/pak-sim-database" class="text-gray-400 hover:text-blue-400 transition text-xl">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -317,6 +322,6 @@
       </div>
     </footer>
 
-    <script src="/assets/script.js"></script>
+    <script src="/src/script.js"></script>
   </body>
 </html>

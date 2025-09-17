@@ -1,8 +1,8 @@
-<h1 align="center">Pakistan SIM Database</h1>
+<h1 align="center">Pak SIM Database</h1>
 
 ## Overview
 
-A responsive web interface for querying Pakistan's SIM database information using the NexOracle API. This application allows users to search for SIM owner details by phone number or CNIC, with support for both free and premium API access.
+A responsive web interface for querying Pakistan's SIM database information using the NexOracle API. This application allows users to search for SIM owner details by phone number or CNIC.
 
 ## Features
 
@@ -10,6 +10,7 @@ A responsive web interface for querying Pakistan's SIM database information usin
 - Responsive design for all devices
 - Dual API integration (free and paid)
 - Real-time search results
+- Save details info PDF
 - Latest sim database details
 - Whatsapp Contact Support
 - Detailed information display including:
@@ -27,18 +28,18 @@ A responsive web interface for querying Pakistan's SIM database information usin
 ### Vercel
 
 1. _Create [Vercel Account](https://vercel.com/signup) if you don't Have_
-2. _Fork this [Repository](https://github.com/maher-xubair/pak-sim-database/fork)_
+2. _Fork this [Repository](https://github.com/maherxubair/pak-sim-database/fork)_
 3. _Then goto vercel => Connect your githhub => Add New => Project => Connect the Forked Repo => Deploy and done_
-4. _You can also deploy via this [Deploy Link](https://vercel.com/new/clone?repository-url=https://github.com/maher-xubair/pak-sim-database)_
+4. _You can also deploy via this [Deploy Link](https://vercel.com/new/clone?repository-url=https://github.com/maherxubair/pak-sim-database)_
 
 ### Github Pages
 
-1. _Fork this [Repository](https://github.com/maher-xubair/pak-sim-database/fork)_
+1. _Fork this [Repository](https://github.com/maherxubair/pak-sim-database/fork)_
 2. _Then goto Forked repo Settings => Pages => Select Branch Main => Save and Done_
 
 ### Netlify
 
-1. _Fork this [Repository](https://github.com/maher-xubair/pak-sim-database/fork)_
+1. _Fork this [Repository](https://github.com/maherxubair/pak-sim-database/fork)_
 2. _Create [Netlify Account](https://netlify.com/signup), if you don't have_
 3. _Import from Github => Connect your github => select your Forked Repo => Deploy and Done_
 4. _You can also upload this repo files into Netlify to deploy_
@@ -79,11 +80,11 @@ If you want to deploy your own version of this SIM database website:
 
 ### Customization Options
 
-- Update free or paid Api Keys in `script.js` at line 93, 94
-- Change Whatsapp contact Link in `script.js` at line 95
+- Update free or paid Api Keys in `src/script.js` at line 100, 101
+- Change Whatsapp contact Link in `src/script.js` at line 102
 - Modify colors or animation in `tailwind.config.js`
 - Update FAQ questions or etc in `index.html`
-- Change API endpoints in the `script.js`
+- Change API endpoints in the `src/script.js`
 
 ## Support
 
